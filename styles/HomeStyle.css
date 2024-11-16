@@ -450,10 +450,34 @@
         overflow: hidden;
         margin: auto;
     }
+    
 }
 
+@media (max-width: 500px) {
+    .left-side h2 {
+        font-size: 30px; /* Réduction de la taille du titre */
+    }
 
-@media (max-width: 400px) {
+    .left-side p {
+        font-size: 30px; /* Réduction de la taille du texte des paragraphes */
+        line-height: 1.4; /* Ajuste l'espacement entre les lignes */
+    }
+
+    .left-side .name {
+        font-size: 30px; /* Réduction de la taille du texte spécifique */
+        letter-spacing: 2px; /* Ajuste l'espacement des lettres */
+    }
+
+    .cv_button a span {
+        font-size: 12px; /* Réduction de la taille du texte des boutons */
+    }
+
+    .welcome {
+        font-size: 25px; /* Ajuste la taille du texte d'accueil */
+    }
+}
+
+@media (max-width: 500px) {
     #Home{
         height: fit-content;
     }
